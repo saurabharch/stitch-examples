@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js --host 0.0.0.0 --port 8001",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -45,6 +47,8 @@
     "react-dom": "^15.2.1",
     "resolve-url-loader": "^1.6.0",
     "sass-loader": "^6.0.6",
-    "style-loader": "^0.13.1"
-  }
+    "style-loader": "^0.13.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
