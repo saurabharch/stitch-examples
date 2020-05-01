@@ -4,13 +4,17 @@
   "description": "Dashboard Tutorial for MongoDB Stitch",
   "main": "data_generator.js",
   "scripts": {
-    "start": "http-server -p 8080"
+    "start": "http-server -p 8080",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Drew DiPalma",
   "license": "MIT",
   "dependencies": {
     "chance": "^1.0.11",
     "http-server": "^0.10.0",
-    "node-fetch": "^2.1.2"
-  }
+    "node-fetch": "^2.1.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
