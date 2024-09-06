@@ -4,9 +4,9 @@
     "private": true,
     "dependencies": {
         "mongodb-stitch": "^3.1.1",
-        "react": "^16.3.2",
+        "react": "^16.5.0",
         "react-dom": "^16.3.2",
-        "react-webcam": "^0.4.3"
+        "react-webcam": "^2.0.0"
     },
     "devDependencies": {
         "react-scripts": "1.1.4",
