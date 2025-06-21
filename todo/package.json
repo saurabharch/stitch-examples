@@ -40,10 +40,10 @@
     "css-loader": "^0.26.1",
     "mongodb-stitch": "^3.0.0",
     "mongodb-stitch-browser-sdk": "^4.0.0",
-    "node-sass": "^4.0.0",
+    "node-sass": "^9.0.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "resolve-url-loader": "^1.6.0",
+    "resolve-url-loader": "^2.0.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.13.1"
   }
